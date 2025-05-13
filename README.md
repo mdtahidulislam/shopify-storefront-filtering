@@ -3,7 +3,7 @@
 
 |Filter types name|filter.|pfilter_scope.|attribute|attribute_scope|=value|
 |--|--|--|--|--|--|
-|Availability||filter.|p.|t.category|--|=id, =id1__id2|
+|Availability|filter.|p.|t.category|--|=id, =id1__id2|
 
 |filter.|p.|t.category|--|=id, =id1__id2|
 
