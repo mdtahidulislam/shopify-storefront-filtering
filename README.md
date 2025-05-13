@@ -1,9 +1,9 @@
 # Storefront Filtering
 ## filter.filter_scope.attribute.attribute_scope=value
 
-|filter.|pfilter_scope.|attribute|attribute_scope|=value|
-|--|--|--|--|--|
-|filter.|p.|t.category|--|=id, =id1__id2|
+|Filter types name|filter.|pfilter_scope.|attribute|attribute_scope|=value|
+|--|--|--|--|--|--|
+|Availability||filter.|p.|t.category|--|=id, =id1__id2|
 
 |filter.|p.|t.category|--|=id, =id1__id2|
 
