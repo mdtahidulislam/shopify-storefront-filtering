@@ -1,29 +1,15 @@
 # Storefront Filtering
 ## filter.filter_scope.attribute.attribute_scope=value
 
-|Filter types name         |filter.|filter_scope.|attribute |attribute_scope|=value|
-|--                        |--     |--           |--        |--|--|
-|Availability              |filter.|p.           |t.category|--|=id, =id1__id2|
-|Category                  |filter.|p.           |t.category|--|=id, =id1__id2|
-|Price                     |filter.|p.           |t.category|--|=id, =id1__id2|
-|Product tags              |filter.|p.           |t.category|--|=id, =id1__id2|
-|Product type              |filter.|p.           |t.category|--|=id, =id1__id2|
-|Vendor                    |filter.|p.           |t.category|--|=id, =id1__id2|
-|Variant options           |filter.|p.           |t.category|--|=id, =id1__id2|
-|Metafields                |filter.|p.           |t.category|--|=id, =id1__id2|
-|Standard product attribute|filter.|p.           |t.category|--|=id, =id1__id2|
-|Category|filter.|p.|t.category|--|=id, =id1__id2|
-|Category|filter.|p.|t.category|--|=id, =id1__id2|
+|Filter types name         |filter.|filter_scope.|attribute    |attribute_scope       |=value                  |
+|--                        |--     |--           |--           |--                    |--                      |
+|Availability              |filter.|v            |availability |--                    |=0<br>=1<br>=0,1          |
+|Category                  |filter.|p.           |t.category   |--                    |=id<br>=id1__id2          |
+|Price                     |filter.|v            |price        |lte or gte            |=5         |
+|Product tags              |filter.|p.           |tag          |--                    |=new<br>=new,trending          |
+|Product type              |filter.|p.           |product_type |--                    |=shoes<br>=shoes,belts          |
+|Vendor                    |filter.|p.           |vendor       |--                    |=vendor1<br>=vendor1,vendor2|
+|Variant options           |filter.|v.           |option       |--                    |=red<br>=red,blue                                                                     |
+|Metafields                |filter.|p.           |m            |namespace.key         |=canada<br>=canada,usa                                                                |
+|Standard product attribute|filter.|v.           |t            |--                    |=gid://shopify/Metaobject/1<br>=gid://shopify/Metaobject/1, gid://shopify/Metaobject/3|
 
-|filter.|p.|t.category|--|=id, =id1__id2|
-
-| Filter Type | product | variant |
-| ----------- | ------- | ------- |
-|Availability|   ---    |availability|
-|Category|t.category|---|price|
-|Price|
-|Product tags|
-|Product type|
-|Vendor|
-|Variant options|
-|Metafields|
