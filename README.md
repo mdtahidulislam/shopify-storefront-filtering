@@ -1,8 +1,8 @@
 # Storefront Filtering
 ## filter.filter_scope.attribute.attribute_scope=value
 
-|Filter types name         |filter|filter_scope |attribute    |attribute_scope       |:=value                  |
-|--                        |--    |--           |--           |--                    |--                      |
+|Filter types name         |filter|filter_scope |attribute    |attribute_scope       |=value                  |
+|--                        |--    |--           |--           |--                    |:--                      |
 |Availability              |filter|v            |availability |--                    |=0<br>=1<br>=0,1          |
 |Category                  |filter|p            |t.category   |--                    |=id<br>=id1__id2          |
 |Price                     |filter|v            |price        |lte or gte            |=5         |
