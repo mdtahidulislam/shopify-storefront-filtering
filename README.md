@@ -20,3 +20,10 @@
 
 # Collection filter display
 
+# Filter Type
+* boolean
+* list
+  * image
+  * swatch
+  * text
+* price_range
